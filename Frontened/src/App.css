@@ -1,0 +1,121 @@
+.searchInput {
+  width: 270px !important;
+  border: none;
+  box-shadow: 5px 5px 10px gray;
+  font-size: 15px;
+  padding: 7px 10px;
+  border-radius: 15px;
+  
+}
+.date{
+  margin-top: 5px;
+}
+.card{
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+}
+
+.dropdown {
+  width: 50px;
+  height: 80px;
+  background-color: rgb(234, 223, 6);
+  position: absolute;
+  left: 18em;
+  
+  border-radius: 10px;
+  /* box-shadow: 10px 10px 20px gray; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+  
+}
+
+/* --- Clean login styles --- */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #f3f6fb;
+  color: #333;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(20, 30, 60, 0.08);
+  padding: 36px;
+  box-sizing: border-box;
+}
+
+.login-card h1 {
+  margin: 0 0 18px 0;
+  font-size: 24px;
+  color: #111827;
+}
+
+.login-card p.subtitle {
+  margin: 0 0 22px 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ef;
+  background: #fff;
+  font-size: 15px;
+  color: #111827;
+  box-sizing: border-box;
+  outline: none;
+  transition: box-shadow .15s, border-color .15s;
+}
+
+.input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.12);
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.button:active { transform: translateY(1px); }
+
+.form-foot {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.form-foot a {
+  color: #2563eb;
+  text-decoration: none;
+}
